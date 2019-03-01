@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Fingerprint2 from 'fingerprintjs2'
 
 Vue.config.productionTip = false
+
 
 new Vue({
   router,
